@@ -48,7 +48,7 @@ EFI_STATUS PatchWindowsBootloader(void *BootkitImagebase,void *ImageBase,UINT64 
 		}
 	}
 
-	/* If, found patch call */
+	/* If found, patch call */
 	if(!found)
 	{
 		Print(L"[!] Not found\r\n");
